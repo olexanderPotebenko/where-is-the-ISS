@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>ISS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container" class="tile">
+      <div id="location_iss_is_now" class="tile"></div>
+      <div id="curr_uts_time" class="tile"></div>
+      <div id="map"></div>
+      <div id="astronauts" class="tile">
+        <div id="list_astronauts"></div>
+        <div id="total_amount"></div>
+      </div>
+    </div>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqtuczdb09xvspszoAxJIW4pgMTfKaktU&callback=initMap">
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
